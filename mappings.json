@@ -1,0 +1,28 @@
+{
+  "external_standards_are_mapped_not_redefined": true,
+  "mappings": [
+    {
+      "external_standard_not_redefined": true,
+      "field_map": {
+        "node": "descriptor.ros_node",
+        "topic": "descriptor.ros_topic",
+        "type": "descriptor.ros_type"
+      },
+      "mapping_version": "1.0",
+      "normative_equivalence_claimed": false,
+      "standard": "ROS-2"
+    },
+    {
+      "external_standard_not_redefined": true,
+      "field_map": {
+        "fleet_name": "descriptor.rmf_fleet",
+        "robot_name": "descriptor.rmf_robot",
+        "task_id": "descriptor.rmf_task"
+      },
+      "mapping_version": "1.0",
+      "normative_equivalence_claimed": false,
+      "standard": "OPEN-RMF"
+    }
+  ],
+  "package": "robotics"
+}
